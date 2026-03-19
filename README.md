@@ -42,21 +42,14 @@ Use it when you want an agent or code assistant to:
 
 You can find it:
 
-- in this repository: [llms.txt](https://github.com/edge-base/edgebase/blob/main/packages/sdk/php/packages/admin/llms.txt)
+- in this repository: [llms.txt](https://github.com/edge-base/edgebase-php-admin/blob/main/llms.txt)
 - in your environment after install, inside the `EdgeBase\Admin` package directory as `llms.txt`
 
 ## Installation
 
-Planned public package name:
-
 ```bash
 composer require edgebase/admin
 ```
-
-Current monorepo usage:
-
-- consume the package through Composer path repositories, or
-- publish split PHP package repos before treating `composer require edgebase/admin` as a public Packagist install
 
 ## Quick Start
 
