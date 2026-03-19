@@ -8,11 +8,11 @@ Use `edgebase/admin` only in trusted server-side PHP environments.
 
 Do not ship this package to browsers, mobile clients, or untrusted code. It is meant for backend APIs, workers, cron jobs, and other places where a Service Key can stay private.
 
-`edgebase/admin` is the intended public Composer package name, but the current monorepo still needs a Packagist-compatible publish path before that install works from Packagist.
+`edgebase/admin` is the public Composer package name for trusted server-side PHP EdgeBase workloads.
 
 ## Source Of Truth
 
-- Package README: https://github.com/edge-base/edgebase/blob/main/packages/sdk/php/packages/admin/README.md
+- Package README: https://github.com/edge-base/edgebase-php-admin/blob/main/README.md
 - Database Admin SDK: https://edgebase.fun/docs/database/admin-sdk
 - Admin users: https://edgebase.fun/docs/authentication/admin-users
 - Storage: https://edgebase.fun/docs/storage/upload-download
