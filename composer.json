@@ -7,7 +7,7 @@
     "support": {
         "homepage": "https://edgebase.fun/docs/admin-sdk/reference",
         "issues": "https://github.com/edge-base/edgebase/issues",
-        "source": "https://github.com/edge-base/edgebase"
+        "source": "https://github.com/edge-base/edgebase-php-admin"
     },
     "autoload": {
         "psr-4": {
@@ -25,16 +25,5 @@
     },
     "require-dev": {
         "phpunit/phpunit": "^10.0"
-    },
-    "repositories": [
-        {
-            "type": "path",
-            "url": "../core",
-            "options": {
-                "versions": {
-                    "edgebase/core": "0.2.2"
-                }
-            }
-        }
-    ]
+    }
 }
